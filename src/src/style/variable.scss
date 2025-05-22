@@ -1,0 +1,49 @@
+//颜色
+$default-color: #409eff;
+$success-color: #67c23a;
+$danger-color: #f56c6c;
+$waring-color: #e6a23c;
+
+//背景色
+$bg-color: #f7f7f7;
+$bg-color-white: #fff;
+$bg-layout-main-color: rgba(244, 244, 244, 0.6);
+
+//字体
+$font-size: 12px;
+$font-size-14: 14px;
+$font-size-16: 16px;
+$font-family: MicrosoftYaHei;
+$font-color: #232334;
+
+:root {
+  --default-color: #{$default-color};
+}
+
+//圆角
+$border-radius-8: 8px;
+$border-radius-4: 8px;
+$border-radius-top-8: 8px 8px 0 0;
+$border-radius-top-4: 4px 4px 0 0;
+$border-radius-bottom-8: 8px 8px 0 0;
+$border-radius-bottom-4: 4px 4px 0 0;
+
+//边距
+$margin-0: 0;
+$margin-8: 8px;
+$margin-16: 16px;
+$margin-24: 24px;
+
+//内边距
+$padding-0: 0;
+$padding-8: 8px;
+$padding-16: 16px;
+$padding-24: 24px;
+$padding-16-24: 16px 24px;
+
+//选中颜色
+$active-bg-color: #039aeb10;
+
+//字体样式
+$index-remark-font: 400 1.332rem/2rem "PingFang SC", "Microsoft YaHei",
+  "Microsoft JhengHei", "黑体", arial, "STHeiti", "\5b8b\4f53";

@@ -1,0 +1,33 @@
+//初始化样式
+@import url("./reset.css");
+
+//iconfont
+@import url("../assets/iconfont/iconfont.css");
+
+@font-face {
+  font-family: "font1";
+  src: url("../assets/font_style/font1.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+// @font-face {
+//   font-family: "font3";
+//   src: url("../assets/font_style/font3.ttf") format("truetype");
+//   font-weight: normal;
+//   font-style: normal;
+// }
+
+* {
+  font-family: "font1" !important;
+}
+
+#app {
+  color: $font-color;
+  font-size: $font-size;
+  font-family: $font-family;
+}
+//隐藏滚动条
+body::-webkit-scrollbar {
+  display: none;
+}
